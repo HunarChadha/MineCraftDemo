@@ -1,0 +1,11 @@
+render.RenderGameItems(this.transFormation, this.screen, this.items, shaders.itemsShader);
+        render.RenderGameItemsPlacer(this.camera, window, this.items, this.transFormation, shaders.GameItemsShader, this.screen);
+        if(!this.screen.inventoryOpen){
+            render.RenderWeapons(WeaponsList, this.transFormation, this.camera, shaders.WeaponsShader);
+            render.RenderTerrain(this.terrain, entities, this.frustumCulling, this.physics, window, this.fog, this.camera, this.transFormation, this.directionalLight, this.material, shaders.shaderProgram, this.screen, this.items);
+            render.RenderSkyBox(camera, transFormation, fog, shaders.SkyBoxShader, skyBox);
+            //RenderParticles(rain, camera, frustumCulling);
+            render.RenderMouse();
+            this.camera.MovePosition(window);
+            this.camera.setGameComp(this.camera.cameraInc, window, terrain);
+        }
