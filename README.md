@@ -89,3 +89,16 @@ The game launches in fullscreen by default with the mouse cursor captured for ca
 - Limited error handling for missing assets
 - Planned: more block types, saving/loading the world, better lighting, more tools and recipe
 - Some may experience FPS drop if snow particles is rendered
+
+## Demo Run
+![Gameplay demo](screenshots/demo.gif)
+
+
+
+
+
+
+
+
+
+
