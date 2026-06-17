@@ -91,9 +91,7 @@ The game launches in fullscreen by default with the mouse cursor captured for ca
 - Some may experience FPS drop if snow particles is rendered
 
 ## Demo Run
-![Gameplay demo](screenshots/demo.gif)
-
-
+<img width="720" height="447" alt="demo" src="https://github.com/user-attachments/assets/b11a3949-50fb-4dc4-8577-e0e0b4d31fe8" />
 
 
 
