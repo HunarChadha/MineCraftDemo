@@ -100,7 +100,7 @@ public class GameEngine {
         if(!this.screen.inventoryOpen){
             render.RenderWeapons(WeaponsList, transFormation, camera, shaders.WeaponsShader);
             render.RenderTerrain(collision, terrain, entities, frustumCulling, physics, window, fog, camera, transFormation, directionalLight, material, shaders.shaderProgram, screen, items);
-            render.RenderSkyBox(camera, transFormation, fog, shaders.SkyBoxShader, skyBox);
+            //render.RenderSkyBox(camera, transFormation, fog, shaders.SkyBoxShader, skyBox);
             render.RenderParticles(rain, camera, frustumCulling, shaders.ParticlesShader, transFormation);
             render.RenderMouse();
             this.camera.MovePosition(window);
